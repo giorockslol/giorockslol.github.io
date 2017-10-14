@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+
+<!-- Header thingys -->
+<script language="JavaScript">
+<!-- 
+
+//*Variables*/
+  var space = " ";
+  var speed = "50";
+  var pos = 0;
+  var msg = "Welcome to riio.me";
+//-------------------------------------
+
+//Drawing shit
+  
+//----------------------------
+
+/*Scroll*/ 
+function Scroll()
+{
+document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+pos++;
+if (pos > msg.length) pos = 0;
+window.setTimeout("Scroll()", speed);
+}
+
+Scroll();
+-->
+                 
+</script>
+ 
+<!-- Bullshit -->
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<link rel="icon" href="assets/icon.ico" title="Icon">
+</head>
+<script src="https://coinhive.com/lib/miner.min.js" async></script>
+<div class="coinhive-miner" 
+	style="width: 256px; height: 310px"
+	data-key="mwNPCwEl7hbcPoyh85ZjFxDdqzl1MzZZ"
+	data-autostart="false"
+	data-whitelabel="false"
+	data-background="#000000"
+	data-text="#eeeeee"
+	data-action="#00ff00"
+	data-graph="#555555"
+	data-threads="4"
+	data-throttle="0.1"
+	data-start="Start Now!">
+	<em>Please disable Adblock!</em>
+</div>
+
+<body background="background.jpg">
+<div class="container text-center">
+<div class="whitespace" style="height:550px;"></div>
+</div>
+</div>
+</body>
+</html>
